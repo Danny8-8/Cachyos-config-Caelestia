@@ -1,0 +1,436 @@
+2026-06-08 15:41:19: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-08 15:41:28: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-08 15:41:28: IPC: Sending message: {"action":"onSecondInstance","data":{"senderPort":2659,"profilePath":"/home/danny/.config/joplin-desktop","argv":["/usr/lib/electron41/electron","/usr/lib/joplin-desktop/app.asar"]},"secretKey":"JM3IhIK6BxkNtyrgxYyvSzBtuAHPhVbEI6pBcCKKysd7WRcaqXlgaskTH0wG5JcS"}
+2026-06-08 15:41:29: IPC: Got message: {"action":"onSecondInstance","data":{"senderPort":2659,"profilePath":"/home/danny/.config/joplin-desktop","argv":["/usr/lib/electron41/electron","/usr/lib/joplin-desktop/app.asar"]},"secretKey":"JM3IhIK6BxkNtyrgxYyvSzBtuAHPhVbEI6pBcCKKysd7WRcaqXlgaskTH0wG5JcS","sourcePort":2659}
+2026-06-08 15:41:29: IPC: [error] Could not send message on port 2658: FetchError: invalid json response body at http://localhost:2658/ reason: Unexpected end of JSON input
+FetchError: invalid json response body at http://localhost:2658/ reason: Unexpected end of JSON input
+    at /usr/lib/joplin-desktop/app.asar/node_modules/node-fetch/lib/index.js:273:32
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at sendMessage (/usr/lib/joplin-desktop/utils/ipc.ts:231:15)
+    at ElectronAppWrapper.sendCrossAppIpcMessage (/usr/lib/joplin-desktop/app.asar/ElectronAppWrapper.ts:734:11)
+    at ElectronAppWrapper.ensureSingleInstance (/usr/lib/joplin-desktop/app.asar/ElectronAppWrapper.ts:861:4)
+    at ElectronAppWrapper.start (/usr/lib/joplin-desktop/app.asar/ElectronAppWrapper.ts:937:26)
+2026-06-08 15:42:26: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-08 15:42:26: App: [appClose] isGoingToExit: <true>
+2026-06-08 15:42:26: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-08 15:42:26: App: [appClose] quit() called
+2026-06-08 15:42:26: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-08 15:42:26: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-08 15:42:26: App: [appClose] isGoingToExit: <true>
+2026-06-08 15:42:26: App: [appClose] Got renderer reply - canClose: <true>
+2026-06-09 14:32:38: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-09 14:55:18: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-09 14:55:18: App: [appClose] isGoingToExit: <true>
+2026-06-09 14:55:18: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-09 14:55:18: App: [appClose] quit() called
+2026-06-09 14:55:18: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-09 14:55:18: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-09 14:56:13: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-09 14:56:23: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-09 14:56:23: App: [appClose] isGoingToExit: <true>
+2026-06-09 14:56:23: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-09 14:56:23: App: [appClose] quit() called
+2026-06-09 14:56:23: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-09 14:56:23: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-10 16:19:35: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-10 16:19:58: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-10 16:19:58: App: [appClose] isGoingToExit: <true>
+2026-06-10 16:19:58: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-10 16:19:58: App: [appClose] quit() called
+2026-06-10 16:19:58: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-10 16:19:58: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-10 19:46:03: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-10 19:53:28: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-10 19:53:28: App: [appClose] isGoingToExit: <true>
+2026-06-10 19:53:28: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-10 19:53:28: App: [appClose] quit() called
+2026-06-10 19:53:28: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-10 19:53:28: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-13 21:51:36: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-13 21:57:28: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-13 21:57:28: App: [appClose] isGoingToExit: <true>
+2026-06-13 21:57:28: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-13 21:57:28: App: [appClose] quit() called
+2026-06-13 21:57:28: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-13 21:57:28: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-13 21:57:28: App: [appClose] isGoingToExit: <true>
+2026-06-14 00:03:23: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-14 00:05:24: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-14 00:05:24: App: [appClose] isGoingToExit: <true>
+2026-06-14 00:05:24: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-14 00:05:25: App: [appClose] quit() called
+2026-06-14 00:05:25: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-14 00:05:25: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-14 16:12:54: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-14 16:59:49: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-14 16:59:49: App: [appClose] isGoingToExit: <true>
+2026-06-14 16:59:49: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-14 16:59:49: App: [appClose] quit() called
+2026-06-14 16:59:49: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-14 16:59:49: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-15 14:41:52: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-15 14:44:18: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-15 14:44:18: App: [appClose] isGoingToExit: <true>
+2026-06-15 14:44:18: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-15 14:44:18: App: [appClose] quit() called
+2026-06-15 14:44:18: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-15 14:44:18: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-15 14:44:18: App: [appClose] isGoingToExit: <true>
+2026-06-15 19:18:45: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-15 19:29:14: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-15 19:29:14: App: [appClose] isGoingToExit: <true>
+2026-06-15 19:29:14: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-15 19:29:14: App: [appClose] quit() called
+2026-06-15 19:29:14: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-15 19:29:14: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-15 22:36:05: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-15 22:39:58: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-15 22:39:58: App: [appClose] isGoingToExit: <true>
+2026-06-15 22:39:58: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-15 22:39:58: App: [appClose] quit() called
+2026-06-15 22:39:58: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-15 22:39:58: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-16 14:03:46: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-16 14:03:57: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-16 14:03:57: App: [appClose] isGoingToExit: <true>
+2026-06-16 14:03:57: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-16 14:03:57: App: [appClose] quit() called
+2026-06-16 14:03:57: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-16 14:03:57: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-19 15:27:45: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-19 15:28:05: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-19 15:28:05: App: [appClose] isGoingToExit: <true>
+2026-06-19 15:28:05: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-19 15:28:05: App: [appClose] quit() called
+2026-06-19 15:28:05: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-19 15:28:05: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-21 15:26:28: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-21 15:27:00: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-21 15:27:00: App: [appClose] isGoingToExit: <true>
+2026-06-21 15:27:00: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-21 15:27:00: App: [appClose] quit() called
+2026-06-21 15:27:00: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-21 20:11:34: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-21 20:12:08: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-21 20:12:08: App: [appClose] isGoingToExit: <true>
+2026-06-21 20:12:08: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-21 20:12:08: App: [appClose] quit() called
+2026-06-21 20:12:08: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-21 20:12:08: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-22 00:56:07: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-22 01:01:47: App: [appClose] quitWithSyncCheck() called - syncPending: <false>
+2026-06-22 01:01:47: App: [appClose] quit() called
+2026-06-22 01:01:52: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-22 01:03:44: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-22 01:03:44: App: [appClose] isGoingToExit: <true>
+2026-06-22 01:03:44: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-22 01:03:44: App: [appClose] quit() called
+2026-06-22 01:03:44: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-22 01:03:44: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-22 20:47:10: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-22 20:47:32: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-22 20:47:32: App: [appClose] isGoingToExit: <true>
+2026-06-22 20:47:32: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-22 20:47:32: App: [appClose] quit() called
+2026-06-22 20:47:32: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-22 20:47:32: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-22 21:20:32: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-22 21:20:54: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-22 21:20:54: App: [appClose] isGoingToExit: <true>
+2026-06-22 21:20:54: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-22 21:20:54: App: [appClose] quit() called
+2026-06-22 21:20:54: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-22 21:20:54: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-22 21:21:11: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-22 21:21:28: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-22 21:21:28: App: [appClose] isGoingToExit: <true>
+2026-06-22 21:21:28: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-22 21:21:28: App: [appClose] quit() called
+2026-06-22 21:21:28: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-22 21:21:28: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-22 21:23:29: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-22 21:23:40: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-22 21:23:40: App: [appClose] isGoingToExit: <true>
+2026-06-22 21:23:40: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-22 21:23:40: App: [appClose] quit() called
+2026-06-22 21:23:40: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-22 21:23:40: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-23 14:44:24: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-23 14:44:52: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-23 14:44:52: App: [appClose] isGoingToExit: <true>
+2026-06-23 14:44:52: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-23 14:44:52: App: [appClose] quit() called
+2026-06-23 14:44:52: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-23 14:44:52: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-23 14:44:52: App: [appClose] isGoingToExit: <true>
+2026-06-25 13:12:23: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-25 13:13:45: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-25 13:13:45: App: [appClose] isGoingToExit: <true>
+2026-06-25 13:13:45: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-25 13:13:45: App: [appClose] quit() called
+2026-06-25 13:13:45: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-25 13:13:45: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-26 14:32:22: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-26 14:33:11: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-26 14:33:11: App: [appClose] isGoingToExit: <true>
+2026-06-26 14:33:11: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-26 14:33:11: App: [appClose] quit() called
+2026-06-26 14:33:11: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-26 14:33:11: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-27 12:46:36: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-27 12:46:48: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-27 12:46:48: App: [appClose] isGoingToExit: <true>
+2026-06-27 12:46:48: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-27 12:46:48: App: [appClose] quit() called
+2026-06-27 12:46:48: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-27 12:46:48: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-27 12:46:58: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-27 12:47:10: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-27 12:47:10: App: [appClose] isGoingToExit: <true>
+2026-06-27 12:47:10: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-27 12:47:10: App: [appClose] quit() called
+2026-06-27 12:47:10: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-27 12:47:10: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-27 16:45:48: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-27 17:16:23: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-27 17:16:23: App: [appClose] isGoingToExit: <true>
+2026-06-27 17:16:23: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-27 17:16:23: App: [appClose] quit() called
+2026-06-27 17:16:23: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-27 17:16:23: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-27 17:16:26: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-27 17:17:27: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-27 17:17:27: App: [appClose] isGoingToExit: <true>
+2026-06-27 17:17:27: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-27 17:17:27: App: [appClose] quit() called
+2026-06-27 17:17:27: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-27 17:47:56: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-27 17:50:46: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-27 17:50:46: App: [appClose] isGoingToExit: <true>
+2026-06-27 17:50:46: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-27 17:50:46: App: [appClose] quit() called
+2026-06-27 17:50:46: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-27 17:50:46: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-27 17:59:29: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-27 17:59:58: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-27 17:59:58: App: [appClose] isGoingToExit: <true>
+2026-06-27 17:59:58: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-27 17:59:58: App: [appClose] quit() called
+2026-06-27 17:59:58: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-27 17:59:58: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-27 19:07:56: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-27 19:10:52: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-27 19:10:52: App: [appClose] isGoingToExit: <true>
+2026-06-27 19:10:52: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-27 19:10:52: App: [appClose] quit() called
+2026-06-27 19:10:52: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-28 19:30:17: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-28 19:30:28: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-28 19:30:28: App: [appClose] isGoingToExit: <true>
+2026-06-28 19:30:28: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-28 19:30:28: App: [appClose] quit() called
+2026-06-28 19:30:28: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-28 19:30:28: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-28 19:40:38: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-28 19:40:50: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-28 19:40:50: App: [appClose] isGoingToExit: <true>
+2026-06-28 19:40:50: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-28 19:40:50: App: [appClose] quit() called
+2026-06-28 19:40:50: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-28 19:40:50: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-06-28 19:40:50: App: [appClose] isGoingToExit: <true>
+2026-06-30 14:36:53: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-06-30 14:37:25: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-06-30 14:37:25: App: [appClose] isGoingToExit: <true>
+2026-06-30 14:37:25: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-06-30 14:37:25: App: [appClose] quit() called
+2026-06-30 14:37:25: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-06-30 14:37:25: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-07-01 14:52:19: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-07-01 14:52:56: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-07-01 14:52:56: App: [appClose] isGoingToExit: <true>
+2026-07-01 14:52:56: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-07-01 14:52:56: App: [appClose] quit() called
+2026-07-01 14:52:56: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-07-01 14:52:56: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-07-01 14:52:56: App: [appClose] isGoingToExit: <true>
+2026-07-01 15:11:32: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-07-01 15:12:53: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-07-01 15:12:53: App: [appClose] isGoingToExit: <true>
+2026-07-01 15:12:53: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-07-01 15:12:53: App: [appClose] quit() called
+2026-07-01 15:12:53: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-07-01 15:12:53: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-07-01 21:44:08: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-07-02 14:07:33: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-07-02 14:22:19: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-07-02 14:22:39: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-07-02 14:22:39: App: [appClose] isGoingToExit: <true>
+2026-07-02 14:22:39: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-07-02 14:22:39: App: [appClose] quit() called
+2026-07-02 14:22:39: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-07-02 14:22:39: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-07-02 14:22:39: App: [appClose] isGoingToExit: <true>
+2026-07-02 22:47:20: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-07-02 22:48:37: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-07-02 22:48:37: App: [appClose] isGoingToExit: <true>
+2026-07-02 22:48:37: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-07-02 22:48:37: App: [appClose] quit() called
+2026-07-02 22:48:37: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-07-02 22:48:37: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-07-04 19:10:50: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-07-04 19:12:39: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-07-04 19:12:39: App: [appClose] isGoingToExit: <true>
+2026-07-04 19:12:39: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-07-04 19:12:39: App: [appClose] quit() called
+2026-07-04 19:12:39: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-07-04 19:12:39: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-07-04 19:14:41: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-07-04 19:15:17: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-07-04 19:15:17: App: [appClose] isGoingToExit: <true>
+2026-07-04 19:15:17: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-07-04 19:15:17: App: [appClose] quit() called
+2026-07-04 19:15:17: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-07-04 19:15:17: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-07-04 19:15:17: App: [appClose] isGoingToExit: <true>
+2026-07-04 19:15:41: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-07-04 19:15:47: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-07-04 19:15:47: App: [appClose] isGoingToExit: <true>
+2026-07-04 19:15:47: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-07-04 19:15:47: App: [appClose] quit() called
+2026-07-04 19:15:47: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-07-04 20:21:12: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-07-04 20:21:36: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-07-04 20:21:36: App: [appClose] isGoingToExit: <true>
+2026-07-04 20:21:36: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-07-04 20:21:36: App: [appClose] quit() called
+2026-07-04 20:21:36: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-07-04 20:21:36: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-07-04 20:41:44: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-07-04 20:42:03: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-07-04 20:42:03: App: [appClose] isGoingToExit: <true>
+2026-07-04 20:42:03: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-07-04 20:42:03: App: [appClose] quit() called
+2026-07-04 20:42:03: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-07-04 20:42:03: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-07-04 21:47:51: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-07-04 21:48:14: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-07-04 21:48:14: App: [appClose] isGoingToExit: <true>
+2026-07-04 21:48:14: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-07-04 21:48:14: App: [appClose] quit() called
+2026-07-04 21:48:14: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-07-04 21:48:14: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-07-04 22:04:06: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-07-04 22:04:19: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-07-04 22:04:19: App: [appClose] isGoingToExit: <true>
+2026-07-04 22:04:19: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-07-04 22:04:19: App: [appClose] quit() called
+2026-07-04 22:04:19: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-07-04 22:04:19: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-07-05 18:55:07: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-07-05 18:57:50: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-07-05 18:57:50: App: [appClose] isGoingToExit: <true>
+2026-07-05 18:57:50: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-07-05 18:57:50: App: [appClose] quit() called
+2026-07-05 18:57:50: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-07-05 18:57:50: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-07-05 18:57:50: App: [appClose] isGoingToExit: <true>
+2026-07-05 18:57:50: App: [appClose] Got renderer reply - canClose: <true>
+2026-07-05 18:58:21: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-07-05 19:01:01: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-07-05 19:01:01: App: [appClose] isGoingToExit: <true>
+2026-07-05 19:01:01: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-07-05 19:01:01: App: [appClose] quit() called
+2026-07-05 19:01:01: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-07-05 19:01:01: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-07-05 19:01:01: App: [appClose] isGoingToExit: <true>
+2026-07-05 19:23:57: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-07-05 19:24:00: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-07-05 19:24:00: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-07-05 19:24:00: App: [appClose] isGoingToExit: <true>
+2026-07-05 19:24:00: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-07-05 19:24:00: IPC: Sending message: {"action":"onSecondInstance","data":{"senderPort":2659,"profilePath":"/home/danny/.config/joplin-desktop","argv":["/usr/lib/electron41/electron","/usr/lib/joplin-desktop/app.asar"]},"secretKey":"JM3IhIK6BxkNtyrgxYyvSzBtuAHPhVbEI6pBcCKKysd7WRcaqXlgaskTH0wG5JcS"}
+2026-07-05 19:24:00: IPC: Got message: {"action":"onSecondInstance","data":{"senderPort":2659,"profilePath":"/home/danny/.config/joplin-desktop","argv":["/usr/lib/electron41/electron","/usr/lib/joplin-desktop/app.asar"]},"secretKey":"JM3IhIK6BxkNtyrgxYyvSzBtuAHPhVbEI6pBcCKKysd7WRcaqXlgaskTH0wG5JcS","sourcePort":2659}
+2026-07-05 19:24:01: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-07-05 19:24:01: IPC: Sending message: {"action":"onSecondInstance","data":{"senderPort":2660,"profilePath":"/home/danny/.config/joplin-desktop","argv":["/usr/lib/electron41/electron","/usr/lib/joplin-desktop/app.asar"]},"secretKey":"JM3IhIK6BxkNtyrgxYyvSzBtuAHPhVbEI6pBcCKKysd7WRcaqXlgaskTH0wG5JcS"}
+2026-07-05 19:24:01: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-07-05 19:24:01: IPC: Got message: {"action":"onSecondInstance","data":{"senderPort":2660,"profilePath":"/home/danny/.config/joplin-desktop","argv":["/usr/lib/electron41/electron","/usr/lib/joplin-desktop/app.asar"]},"secretKey":"JM3IhIK6BxkNtyrgxYyvSzBtuAHPhVbEI6pBcCKKysd7WRcaqXlgaskTH0wG5JcS","sourcePort":2660}
+2026-07-05 19:24:01: IPC: Sending message: {"action":"onSecondInstance","data":{"senderPort":2661,"profilePath":"/home/danny/.config/joplin-desktop","argv":["/usr/lib/electron41/electron","/usr/lib/joplin-desktop/app.asar"]},"secretKey":"JM3IhIK6BxkNtyrgxYyvSzBtuAHPhVbEI6pBcCKKysd7WRcaqXlgaskTH0wG5JcS"}
+2026-07-05 19:24:01: IPC: Got message: {"action":"onSecondInstance","data":{"senderPort":2661,"profilePath":"/home/danny/.config/joplin-desktop","argv":["/usr/lib/electron41/electron","/usr/lib/joplin-desktop/app.asar"]},"secretKey":"JM3IhIK6BxkNtyrgxYyvSzBtuAHPhVbEI6pBcCKKysd7WRcaqXlgaskTH0wG5JcS","sourcePort":2661}
+2026-07-05 19:24:01: IPC: [error] Could not send message on port 2658: FetchError: invalid json response body at http://localhost:2658/ reason: Unexpected end of JSON input
+FetchError: invalid json response body at http://localhost:2658/ reason: Unexpected end of JSON input
+    at /usr/lib/joplin-desktop/app.asar/node_modules/node-fetch/lib/index.js:273:32
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at sendMessage (/usr/lib/joplin-desktop/utils/ipc.ts:231:15)
+    at ElectronAppWrapper.sendCrossAppIpcMessage (/usr/lib/joplin-desktop/app.asar/ElectronAppWrapper.ts:734:11)
+    at ElectronAppWrapper.ensureSingleInstance (/usr/lib/joplin-desktop/app.asar/ElectronAppWrapper.ts:861:4)
+    at ElectronAppWrapper.start (/usr/lib/joplin-desktop/app.asar/ElectronAppWrapper.ts:937:26)
+2026-07-05 19:24:03: IPC: [error] Could not send message on port 2659: FetchError: request to http://localhost:2659/ failed, reason: 
+Code: ECONNREFUSED
+FetchError: request to http://localhost:2659/ failed, reason: 
+    at ClientRequest.<anonymous> (/usr/lib/joplin-desktop/app.asar/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (node:events:509:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:109:11)
+    at Socket.socketErrorListener (node:_http_client:593:5)
+    at Socket.emit (node:events:509:28)
+    at Socket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-07-05 19:24:01: IPC: [error] Could not send message on port 2658: FetchError: invalid json response body at http://localhost:2658/ reason: Unexpected end of JSON input
+FetchError: invalid json response body at http://localhost:2658/ reason: Unexpected end of JSON input
+    at /usr/lib/joplin-desktop/app.asar/node_modules/node-fetch/lib/index.js:273:32
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at sendMessage (/usr/lib/joplin-desktop/utils/ipc.ts:231:15)
+    at ElectronAppWrapper.sendCrossAppIpcMessage (/usr/lib/joplin-desktop/app.asar/ElectronAppWrapper.ts:734:11)
+    at ElectronAppWrapper.ensureSingleInstance (/usr/lib/joplin-desktop/app.asar/ElectronAppWrapper.ts:861:4)
+    at ElectronAppWrapper.start (/usr/lib/joplin-desktop/app.asar/ElectronAppWrapper.ts:937:26)
+2026-07-05 19:24:03: IPC: [error] Could not send message on port 2659: FetchError: request to http://localhost:2659/ failed, reason: 
+Code: ECONNREFUSED
+FetchError: request to http://localhost:2659/ failed, reason: 
+    at ClientRequest.<anonymous> (/usr/lib/joplin-desktop/app.asar/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (node:events:509:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:109:11)
+    at Socket.socketErrorListener (node:_http_client:593:5)
+    at Socket.emit (node:events:509:28)
+    at Socket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-07-05 19:24:03: IPC: [error] Could not send message on port 2660: FetchError: request to http://localhost:2660/ failed, reason: 
+Code: ECONNREFUSED
+FetchError: request to http://localhost:2660/ failed, reason: 
+    at ClientRequest.<anonymous> (/usr/lib/joplin-desktop/app.asar/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (node:events:509:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:109:11)
+    at Socket.socketErrorListener (node:_http_client:593:5)
+    at Socket.emit (node:events:509:28)
+    at Socket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-07-05 19:24:07: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-07-05 19:24:07: App: [appClose] isGoingToExit: <true>
+2026-07-05 19:24:07: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-07-05 19:24:07: App: [appClose] quit() called
+2026-07-05 19:24:07: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-07-05 19:24:07: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-07-05 19:24:07: App: [appClose] isGoingToExit: <true>
+2026-07-05 19:24:41: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-07-05 19:24:45: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-07-05 19:24:45: App: [appClose] isGoingToExit: <true>
+2026-07-05 19:24:45: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-07-05 19:24:45: App: [appClose] quit() called
+2026-07-05 19:24:45: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-07-05 19:24:45: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>
+2026-07-05 19:24:45: App: [appClose] isGoingToExit: <true>
+2026-07-05 19:53:20: IPC: Starting server using secret key: /home/danny/.config/joplin-desktop/ipc_secret_key.txt
+2026-07-05 19:53:33: App: [appClose] Window close event - willQuitApp_: <false> rendererProcessQuitReply_: <null> secondaryWindows: 0 trayShown: <false>
+2026-07-05 19:53:33: App: [appClose] isGoingToExit: <true>
+2026-07-05 19:53:33: App: [appClose] Sending appClose to renderer, waiting for reply...
+2026-07-05 19:53:33: App: [appClose] quit() called
+2026-07-05 19:53:33: App: [appClose] before-quit event fired, setting willQuitApp_ = true
+2026-07-05 19:53:33: App: [appClose] Window close event - willQuitApp_: <true> rendererProcessQuitReply_: {"canClose":true} secondaryWindows: 0 trayShown: <false>

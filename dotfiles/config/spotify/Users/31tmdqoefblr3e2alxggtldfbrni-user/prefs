@@ -1,0 +1,7 @@
+audio.crossfade_v2=true
+audio.play_bitrate_non_metered_migrated=true
+connect.dial_devices="[]"
+connect.mdns_devices="[]"
+audio.crossfade.time_v2=4000
+app.browser.zoom-level=-100
+audio.loudness.environment=2

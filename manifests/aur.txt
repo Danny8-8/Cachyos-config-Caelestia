@@ -1,0 +1,14 @@
+app2unit 1.4.2-1
+caelestia-cli 1.1.1-1
+caelestia-firefox-theme 1.0.0-1
+caelestia-meta r183.cf94e7f-1
+caelestia-shell 2.1.0-1
+darkly-bin 0.5.38-1
+equibop-bin 3.2.1-2
+libcava 0.10.7-2
+papirus-folders 1.14.0-1
+python-materialyoucolor 3.0.2-1
+qtengine 0.2.1-1
+sddm-sugar-candy-git 1.6r42.d31dbf5-1
+spotify 1:1.2.92.147-1
+ttf-rubik-vf 2.3.0-3

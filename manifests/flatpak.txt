@@ -1,0 +1,6 @@
+Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-25.08.12	25.08	system
+Mesa	org.freedesktop.Platform.GL.default	26.0.6	25.08	system
+Mesa (Extra)	org.freedesktop.Platform.GL.default	26.0.6	25.08-extra	system
+Intel VAAPI driver	org.freedesktop.Platform.VAAPI.Intel		25.08	system
+Codecs Extra Extension	org.freedesktop.Platform.codecs-extra		25.08-extra	system
+adw-gtk3 GTK Theme	org.gtk.Gtk3theme.adw-gtk3-dark	6.5	3.22	system

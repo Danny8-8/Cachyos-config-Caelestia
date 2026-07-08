@@ -1,0 +1,21 @@
+# Cachés
+cache/
+Cache/
+tmp/
+logs/
+GPUCache/
+DawnWebGPUCache/
+Code Cache/
+IndexedDB/
+blob_storage/
+Service Worker/
+Session Storage/
+Local Storage/
+
+# Archivos temporales
+*.tmp
+*.bak
+*.old
+*.log
+*.sqlite-shm
+*.sqlite-wal

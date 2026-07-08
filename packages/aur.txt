@@ -1,0 +1,14 @@
+app2unit
+caelestia-cli
+caelestia-firefox-theme
+caelestia-meta
+caelestia-shell
+darkly-bin
+equibop-bin
+libcava
+papirus-folders
+python-materialyoucolor
+qtengine
+sddm-sugar-candy-git
+spotify
+ttf-rubik-vf

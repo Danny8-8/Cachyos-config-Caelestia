@@ -1,0 +1,53 @@
+# ==========================================
+# Temporary files
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# IDEs
+.vscode/
+.idea/
+
+# Build
+build/
+dist/
+
+# Git
+*.patch
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Generated backups
+backups/*.tar
+backups/*.tar.gz
+backups/*.zip

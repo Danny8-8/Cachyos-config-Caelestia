@@ -1,0 +1,76 @@
+{
+    "appearance": {
+        "anim": {
+            "durations": {
+                "scale": 0.9677828933639401
+            }
+        },
+        "transparency": {
+            "base": 0.7647185413188649,
+            "enabled": true,
+            "layers": 0.5902285058430717
+        }
+    },
+    "background": {
+        "desktopClock": {
+            "enabled": false
+        }
+    },
+    "bar": {
+        "activeWindow": {
+            "compact": true
+        },
+        "status": {
+            "showAudio": true,
+            "showKbLayout": true,
+            "showLockStatus": false
+        },
+        "tray": {
+            "background": false,
+            "compact": false,
+            "recolour": false
+        }
+    },
+    "border": {
+        "rounding": 26,
+        "thickness": 0
+    },
+    "general": {
+        "apps": {
+            "explorer": [
+                "nautilus",
+                "--new-window"
+            ],
+            "terminal": [
+                "kitty"
+            ]
+        }
+    },
+    "launcher": {
+        "showOnHover": false,
+        "useFuzzy": {
+            "apps": false
+        },
+        "vimKeybinds": true
+    },
+    "notifs": {
+        "defaultExpireTimeout": 1000,
+        "groupPreviewNum": 10,
+        "openExpanded": true
+    },
+    "services": {
+        "lyricsBackend": "Auto"
+    },
+    "utilities": {
+        "maxToasts": 9,
+        "toasts": {
+            "capsLockChanged": false,
+            "chargingChanged": false,
+            "dndChanged": true,
+            "fullscreen": "off",
+            "kbLayoutChanged": true,
+            "nowPlaying": false,
+            "numLockChanged": false
+        }
+    }
+}

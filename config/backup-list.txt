@@ -1,0 +1,39 @@
+# Configuraciones principales
+.config/hypr
+.config/caelestia
+.config/fish
+.config/kitty
+.config/foot
+.config/fastfetch
+.config/btop
+.config/cava
+.config/fuzzel
+.config/gtk-3.0
+.config/gtk-4.0
+.config/micro
+.config/mpv
+.config/nwg-look
+.config/swappy
+.config/uwsm
+.config/xsettingsd
+
+# Aplicaciones
+# .config/zen
+.config/zed
+.config/joplin-desktop
+.config/Joplin
+.config/libreoffice
+.config/vlc
+.config/Thunar
+.config/nautilus
+
+# Comunicación
+.config/vesktop
+.config/Vencord
+.config/Equicord
+.config/legcord
+.config/BetterDiscord
+
+# Música
+.config/spotify
+.config/spicetify
