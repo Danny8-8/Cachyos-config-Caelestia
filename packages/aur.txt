@@ -1,7 +1,5 @@
 app2unit
 caelestia-cli
-caelestia-firefox-theme
-caelestia-meta
 caelestia-shell
 darkly-bin
 equibop-bin
