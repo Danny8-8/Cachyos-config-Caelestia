@@ -15,6 +15,8 @@ bash "$ROOT/scripts/install-packages.sh"
 
 bash "$ROOT/scripts/restore-dotfiles.sh"
 
+bash "$ROOT/scripts/enable-services.sh"
+
 bash "$ROOT/post-install.sh"
 
 echo
