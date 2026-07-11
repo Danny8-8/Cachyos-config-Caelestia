@@ -11,6 +11,8 @@ echo "Instalando paru..."
 
 sudo pacman -S --needed base-devel git
 
+rm -rf /tmp/paru
+
 git clone https://aur.archlinux.org/paru.git /tmp/paru
 
 cd /tmp/paru
