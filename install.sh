@@ -9,26 +9,11 @@ echo " CachyOS Configuration Installer"
 echo "========================================"
 echo
 
-echo "Comprobando dependencias..."
+bash "$ROOT/scripts/install-packages.sh"
 
-if ! command -v pacman >/dev/null; then
-    echo "Error: pacman no encontrado."
-    exit 1
-fi
+bash "$ROOT/scripts/restore-dotfiles.sh"
 
-echo "✓ Pacman"
-
-if command -v paru >/dev/null; then
-    echo "✓ Paru"
-else
-    echo "⚠ Paru no instalado."
-fi
-
-if command -v flatpak >/dev/null; then
-    echo "✓ Flatpak"
-else
-    echo "⚠ Flatpak no instalado."
-fi
+bash "$ROOT/post-install.sh"
 
 echo
-echo "Comprobación finalizada."
+echo "Instalación completada."
