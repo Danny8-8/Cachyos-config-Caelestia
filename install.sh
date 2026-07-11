@@ -9,6 +9,8 @@ echo " CachyOS Configuration Installer"
 echo "========================================"
 echo
 
+bash "$ROOT/scripts/install-paru.sh"
+
 bash "$ROOT/scripts/install-packages.sh"
 
 bash "$ROOT/scripts/restore-dotfiles.sh"
