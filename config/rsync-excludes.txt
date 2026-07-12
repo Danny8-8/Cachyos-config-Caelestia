@@ -12,6 +12,8 @@ Service Worker/
 Session Storage/
 Local Storage/
 
+hosts.yml
+
 # Archivos temporales
 *.tmp
 *.bak
