@@ -16,6 +16,14 @@
 .config/swappy
 .config/uwsm
 .config/xsettingsd
+.config/autostart
+.config/dconf
+.config/equibop
+.config/gh
+.config/pulse
+.config/qtengine
+.config/shelly
+.config/zen
 
 # Aplicaciones
 # .config/zen
